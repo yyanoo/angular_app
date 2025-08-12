@@ -1,0 +1,8 @@
+<div class="bubble-container" [style.transform]="containerTransform">
+    @for (bubble of bubbles; track $index) {
+    <div class="bubble" [style.left]="bubble.left" [style.width.px]="bubble.size" [style.height.px]="bubble.size"
+        [style.animationDuration]="bubble.animation_duration" [style.animationDelay]="bubble.animation_delay"
+        [style.backgroundColor]="bubble.color">
+    </div>
+    }
+</div>

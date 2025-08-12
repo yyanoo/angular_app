@@ -1,0 +1,10 @@
+.header-table {
+    height: 50px;
+    margin: 10px 0 10px 0;
+    background-color: rgba(255, 255, 255);
+    outline: thick double rgba(150, 150, 150, 0.5);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    background: linear-gradient(to top, rgb(240, 240, 240), rgba(255, 255, 255));
+    height: auto;
+    min-height: 100vh;
+}
+
+//禁止選取文字，避免游標出現
+.no-caret {
+    caret-color: transparent;
+    user-select: none;
+    outline: none;
+}
+
+//物件背景模糊
+.blur-background {
+    filter: drop-shadow(0 0 0.5rem rgb(200, 200, 200));
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px 40px 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .mobile_main_container {
+        margin-top: 100px;
+    }
+}

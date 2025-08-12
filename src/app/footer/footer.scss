@@ -1,0 +1,32 @@
+.footer-container {
+    background: #d8d8de url(https://madosoft.net/wp/wp-content/themes/madosoft/img/common/footer_bg.png) left top repeat-x;
+    height: auto;
+    min-height: 100px;
+    margin: 10px 0 0 0;
+    max-width: auto;
+}
+
+.sticky {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-container {
+        margin: 0;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .footer-text {
+        font-size: 14px;
+    }
+}
