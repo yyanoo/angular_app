@@ -3,7 +3,7 @@ import { HeaderTable } from "./header-table/header-table";
 
 @Component({
   selector: 'app-header',
-  imports: [HeaderTable,],
+  imports: [HeaderTable],
   templateUrl: './header.html',
   styleUrl: './header.scss'
 })
